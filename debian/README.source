@@ -1,0 +1,6 @@
+The tests for this package are not run during the Debian packaging
+process, as it would introduce a circular build dependency with
+the ruby-lemon package.
+
+
+Tim Potter <tpot@hp.com>

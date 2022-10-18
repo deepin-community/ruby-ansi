@@ -1,0 +1,21 @@
+Source: ruby-ansi
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Tim Potter <tpot@hp.com>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb
+Standards-Version: 3.9.6
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-ansi.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-ansi.git;a=summary
+Homepage: http://rubyworks.github.com/ansi
+XS-Ruby-Versions: all
+
+Package: ruby-ansi
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
+Description: ANSI escape codes at your fingertips
+ The ANSI project is a superlative collection of ANSI escape code
+ related libraries enabling ANSI colorization and stylization of
+ console output. It features classees for colorised columns, tables,
+ loggers and very good coverage of standard ANSI codes.

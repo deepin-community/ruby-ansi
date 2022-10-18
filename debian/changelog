@@ -1,0 +1,19 @@
+ruby-ansi (1.5.0-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 01:38:59 +0100
+
+ruby-ansi (1.5.0-1) unstable; urgency=low
+
+  * Team upload
+  * New upstream release
+
+ -- Michael Moll <kvedulv@kvedulv.de>  Fri, 14 Aug 2015 00:04:21 +0200
+
+ruby-ansi (1.4.3-1) unstable; urgency=medium
+
+  * Initial release (Closes: #762416)
+
+ -- Tim Potter <tpot@hp.com>  Fri, 19 Sep 2014 11:25:07 +1000
